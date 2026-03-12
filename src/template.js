@@ -1,3 +1,4 @@
+export const offlineHTML = `
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,16 +12,15 @@
     .badge { display: inline-flex; align-items: center; padding: 6px 16px; background: rgba(239, 68, 68, 0.1); color: #ef4444; border-radius: 999px; font-size: 0.875rem; font-weight: 600; margin-bottom: 24px; letter-spacing: 0.05em;}
     h1 { font-size: 1.875rem; margin: 0 0 16px 0; font-weight: 700; color: #f1f5f9; }
     p { color: #94a3b8; line-height: 1.6; margin: 0 0 24px 0; font-size: 1.05rem; }
-    .footer { font-size: 0.875rem; color: #64748b; margin-top: 32px; border-top: 1px solid #334155; padding-top: 16px;}
   </style>
 </head>
 <body>
   <div class="card">
     <div class="badge"><span class="status-dot"></span> SYSTEM DOWN</div>
     <h1>Server Offline</h1>
-    <p>The host server for this application is currently powered down. Maintenance may be in progress, or the system is taking a quick rest.</p>
+    <p>The host server for this application is currently powered down for maintenance.</p>
     <p>Please try accessing the site again a little later.</p>
-    <div class="footer">Cloudflare Edge Routing Active</div>
   </div>
 </body>
 </html>
+`;
