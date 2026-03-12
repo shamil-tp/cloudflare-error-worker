@@ -1,4 +1,4 @@
-const offlineHTML = `
+export const offlineHTML = `
 <!DOCTYPE html>
 <html lang="en">
 <head>
